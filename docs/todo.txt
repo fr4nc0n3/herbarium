@@ -1,0 +1,2 @@
+Calde: componente immagine + testo per piante
+Franco: bottone con bordi arrotondati e scritta in grassetto e bordo nero
