@@ -15,7 +15,7 @@ const DemoCard2 = ({
       className={`relative flex flex-col max-w-md w-full h-fit justify-center items-start border drop-shadow-xl p-10 rounded-3xl gap-y-4 ${className}`}
     >
       <Image
-        src="/hero.jpg"
+        src="/tree.jpg"
         alt="Hero background"
         quality={100}
         fill
@@ -25,7 +25,7 @@ const DemoCard2 = ({
           objectFit: "cover",
           objectPosition: "center",
         }}
-        className="brightness-75 rounded-2xl"
+        className="brightness-50 rounded-2xl"
       />
 
       <h1 className="relative text-6xl font-sans font-black">{title}</h1>

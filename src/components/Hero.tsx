@@ -17,12 +17,12 @@ const Hero = () => {
         }}
         className="brightness"
       />
-      <div className="relative flex flex-col overflow-hidden">
-        <h1 className="text-left text-white text-3xl font-black">scopri</h1>
+      <div className="relative flex flex-col overflow-hidden font-sans">
+        <h1 className="text-left text-white text-3xl font-bold">scopri</h1>
         <h1 className="text-center text-white text-9xl font-black ">
           herbarium
         </h1>
-        <p className="mt-8 text-left max-w-md text-xl/7 font-normal">
+        <p className="mt-8 text-left max-w-md text-xl font-light">
           Conosci, esplora e approfondisci il mondo delle piante, da ogni angolo
           del pianeta.
         </p>

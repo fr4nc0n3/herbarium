@@ -12,7 +12,7 @@ const DemoCard = ({
     <div className="relative max-w-md w-full h-full bg-white border drop-shadow-xl p-5 rounded-3xl">
       <div className="flex flex-col gap-y-2">
         <Image
-          src="/hero.jpg"
+          src="/tree.jpg"
           alt="Hero background"
           width={500}
           height={500}
