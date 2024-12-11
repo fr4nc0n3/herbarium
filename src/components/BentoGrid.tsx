@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaArrowRight } from "react-icons/fa";
+import { cn } from "../../lib/utils";
 
 export const BentoGrid = ({
   className,
@@ -31,7 +32,10 @@ export const BentoGridItem = ({
 }) => {
   return (
     <div
-      className={`row-span-1 rounded-2xl group/bento p-4 bg-white border drop-shadow-xl justify-between flex flex-col  ${className}`}
+      className={cn(
+        "row-span-1 rounded-2xl group/bento p-4 bg-white border drop-shadow-xl justify-between flex flex-col",
+        className
+      )}
     >
       <Image
         src={imageUrl}
@@ -47,19 +51,14 @@ export const BentoGridItem = ({
         className="rounded-2xl"
       />
       <div className="relative flex w-full items-end justify-end">
-        <button className="w-fit h-fit px-2 py-2 bg-transparent border-2 border-white text-wite rounded-full">
+        <button className="w-fit h-fit px-2 py-2 bg-transparent border-2 border-white text-white rounded-full">
           <FaArrowRight />
         </button>
       </div>
-
       <div className="relative h-full flex flex-col justify-end items-start">
-        <div className="w-full h-fit hover:backdrop-blur-md duration-700 rounded-2xl p-2">
-          <div className="font-sans font-bold text-white text-5xl mb-2 mt-2">
-            {title}
-          </div>
-          <div className="font-sans font-light text-white text-base">
-            {description}
-          </div>
+        <div className="w-full h-fit rounded-2xl p-2 font-sans text-white">
+          <div className="font-bold text-5xl mb-2">{title}</div>
+          <div className="font-light text-base">{description}</div>
         </div>
       </div>
     </div>

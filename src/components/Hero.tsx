@@ -15,14 +15,14 @@ const Hero = () => {
           objectFit: "cover",
           objectPosition: "center",
         }}
-        className="brightness"
+        className=""
       />
       <div className="relative flex flex-col overflow-hidden font-sans">
         <h1 className="text-left text-white text-3xl font-bold">scopri</h1>
         <h1 className="text-center text-white text-9xl font-black ">
           herbarium
         </h1>
-        <p className="mt-8 text-left max-w-md text-xl font-light">
+        <p className="mt-8 text-left text-white max-w-md text-xl font-light">
           Conosci, esplora e approfondisci il mondo delle piante, da ogni angolo
           del pianeta.
         </p>
