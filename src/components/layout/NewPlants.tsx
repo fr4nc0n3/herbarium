@@ -17,7 +17,7 @@ const NewPlants = () => {
             title={item.title}
             imageUrl={item.imageUrl}
             description={item.description}
-            className={item.className}
+            className="md:col-span-1"
           />
         ))}
       </BentoGrid>

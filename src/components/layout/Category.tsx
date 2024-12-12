@@ -16,7 +16,7 @@ const Category = () => {
             title={item.title}
             imageUrl={item.imageUrl}
             description={item.description}
-            className={item.className}
+            className={i === 0 || i === 3 ? "md:col-span-2" : "md:col-span-1"}
           />
         ))}
       </BentoGrid>
