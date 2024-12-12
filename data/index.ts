@@ -28,3 +28,34 @@ export const category = [
     className: "md:col-span-2",
   },
 ];
+
+export const newPlants = [
+  {
+    title: "Banano",
+    imageUrl: "/banano.jpg",
+    description:
+      "Pianta tropicale che produce banane, con grandi foglie e cresce fino a 7-8 metri.",
+    className: "md:col-span-1",
+  },
+  {
+    title: "Cactus",
+    imageUrl: "/cactus.jpg",
+    description:
+      "Pianta succulenta che cresce in ambienti aridi, con spine al posto delle foglie e capacità di conservare acqua.",
+    className: "md:col-span-1",
+  },
+  {
+    title: "Girasole",
+    imageUrl: "/sunflower.jpg",
+    description:
+      "Pianta con fiori gialli che seguono il sole, coltivata per i semi ricchi di olio.",
+    className: "md:col-span-1",
+  },
+  {
+    title: "Sequoia",
+    imageUrl: "/sequoia.jpg",
+    description:
+      "Albero gigante che può superare i 90 metri di altezza, noto per la sua longevità e la corteccia spessa. Cresce principalmente nelle regioni costiere della California.",
+    className: "md:col-span-1",
+  },
+];

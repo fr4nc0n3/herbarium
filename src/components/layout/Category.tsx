@@ -1,6 +1,7 @@
 import React from "react";
-import { BentoGrid, BentoGridItem } from "./BentoGrid";
-import { category } from "../../data";
+import BentoGrid from "../ui/BentoGrid";
+import { category } from "../../../data";
+import ImageCard from "../ui/ImageCard";
 
 const Category = () => {
   return (
@@ -8,9 +9,9 @@ const Category = () => {
       <div className="w-fit h-fit text-black font-sans">
         <h1 className="text-7xl font-black">Categorie</h1>
       </div>
-      <BentoGrid className="w-full md:auto-rows-[20rem]">
+      <BentoGrid className="md:grid-cols-3">
         {category.map((item, i) => (
-          <BentoGridItem
+          <ImageCard
             key={i}
             title={item.title}
             imageUrl={item.imageUrl}
